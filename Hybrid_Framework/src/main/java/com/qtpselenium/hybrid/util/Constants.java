@@ -22,7 +22,7 @@ public class Constants {
     public static final String RESOURCES_FOLDER = PROJECT_PATH + "/src/test/resources/";
     public static final String REPORTS_FOLDER = System.getProperty("user.dir") + "/ExtentReports/";
 
-    public static final SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat("y_MM_dd_z_HH_mm_ss");
+    public static final SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat("y_MM_dd_z_HH_mm_ss_S");
     public static final String GRID_VARIABLE = "grid";
     public static final String GRID_YES = "Y";
 }
