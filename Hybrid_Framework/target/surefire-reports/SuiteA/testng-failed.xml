@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SuiteA]" parallel="tests">
+  <test thread-count="5" verbose="0" name="LoginTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.hybrid.SuiteA.LoginTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="loginTest" invocation-numbers="0 1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.SuiteA.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" verbose="0" name="CreatePortfolioTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest">
+        <methods>
+          <include name="createPortfolioTest" invocation-numbers="0 1"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest -->
+    </classes>
+  </test> <!-- CreatePortfolioTest(failed) -->
+</suite> <!-- Failed suite [SuiteA] -->

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteA" parallel="tests">
+    <test name="LoginTest">
+        <classes>
+            <class name="com.qtpselenium.hybrid.SuiteA.LoginTest">
+            </class>
+        </classes>
+    </test>
+    <test name="CreatePortfolioTest">
+        <classes>
+            <class name="com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 36.524 s <<< FAILURE! - in TestSuite
+loginTest(com.qtpselenium.hybrid.SuiteA.LoginTest)  Time elapsed: 32.612 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.hybrid.SuiteA.LoginTest.loginTest(LoginTest.java:21)
+Caused by: java.lang.AssertionError: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='userpass']/a"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WHIZDOM-TRAININ', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51844}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 105f773e031e6ffb0736dcfa20f...}
+Session ID: 105f773e031e6ffb0736dcfa20fc0e54
+*** Element info: {Using=xpath, value=//input[@id='userpass']/a}
+	at com.qtpselenium.hybrid.SuiteA.LoginTest.loginTest(LoginTest.java:21)
+
+createPortfolioTest(com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest)  Time elapsed: 32.614 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest.createPortfolioTest(CreatePortfolioTest.java:21)
+Caused by: java.io.IOException: Failed to copy full contents from 'C:\Users\ABHISH~1\AppData\Local\Temp\screenshot1073915780754283892.png' to 'A:\Documents\Batches\2021-selenium-jan\Hybrid_Framework\ExtentReports\2021_03_03_IST_21_32_03\screenshots\2021_03_03_IST_21_32_36.png'
+	at com.qtpselenium.hybrid.SuiteA.CreatePortfolioTest.createPortfolioTest(CreatePortfolioTest.java:21)
+
